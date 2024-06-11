@@ -1,0 +1,128 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Instructions toggle button */
+#toggleInstructions {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#toggleInstructions:hover {
+    background-color: #0056b3;
+}
+
+/* Instructions content */
+#gameInstructions {
+    display: none; /* Initially hidden */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Color selection area */
+#colorSelection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Game board styling */
+#gameBoard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between rows */
+    margin-bottom: 20px;
+}
+
+.rowWrapper {
+    display: flex; /* Allows side-by-side peg row and feedback */
+    align-items: center; /* Centers the row and feedback vertically */
+}
+
+.row {
+    display: flex; /* Ensures pegs are in a horizontal row */
+    gap: 10px; /* Space between pegs */
+}
+
+.peg, .pegSlot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular pegs for a visually appealing look */
+    border: 2px solid #ddd; /* Peg border for visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Indicates the slot is clickable */
+}
+
+/* Specific colors for pegs */
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.yellow { background-color: yellow; }
+.purple { background-color: purple; }
+.orange { background-color: orange; }
+.cyan { background-color: cyan; }
+.magenta { background-color: magenta; }
+.lime { background-color: lime; }
+.pink { background-color: pink; }
+
+/* Feedback pegs */
+.feedbackContainer {
+    display: flex;
+    flex-direction: column; /* Align feedback pegs vertically */
+    justify-content: center; /* Center feedback pegs vertically */
+    gap: 5px; /* Space between feedback pegs */
+    padding-left: 10px; /* Space between the last peg and the feedback pegs */
+}
+
+.feedbackPeg {
+    width: 15px; /* Smaller size for feedback pegs */
+    height: 15px;
+    border-radius: 50%; /* Circular feedback pegs */
+    border: 1px solid #000; /* Border to enhance visibility */
+}
+
+.black { background-color: black; }
+.white { background-color: white; }
+
+/* Submit guess button */
+#submitGuessBtn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#submitGuessBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
