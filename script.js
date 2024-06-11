@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let selectedColor = '';
     let currentRow = 0;
 
-    const secretCode = ['yellow', 'orange', 'lime', 'pink', 'red'];
+    const secretCode = ['pink', 'lime', 'orange', 'blue', 'red'];
 
     toggleInstructionsBtn.addEventListener('click', function() {
         instructionsDiv.style.display = instructionsDiv.style.display === 'none' ? 'block' : 'none';
