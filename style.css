@@ -81,7 +81,19 @@ h1 {
 }
 
 /* Specific colors for pegs */
-.red { background-color: red; }
+.red { background-image: linear-gradient(
+  45deg,
+  hsl(0deg 98% 65%) 0%,
+  hsl(0deg 98% 61%) 11%,
+  hsl(0deg 98% 56%) 22%,
+  hsl(0deg 98% 52%) 33%,
+  hsl(0deg 98% 47%) 44%,
+  hsl(0deg 99% 43%) 56%,
+  hsl(0deg 99% 38%) 67%,
+  hsl(0deg 100% 34%) 78%,
+  hsl(0deg 100% 29%) 89%,
+  hsl(0deg 100% 25%) 100%
+); }
 .blue { background-image: linear-gradient(
   45deg,
   hsl(240deg 89% 71%) 0%,
