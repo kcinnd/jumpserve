@@ -107,10 +107,58 @@ h1 {
   hsl(240deg 98% 25%) 89%,
   hsl(240deg 100% 20%) 100%
 ); }
-.green { background-color: green; }
-.yellow { background-color: yellow; }
-.purple { background-color: purple; }
-.orange { background-color: orange; }
+.green { background-image: linear-gradient(
+  45deg,
+  hsl(120deg 98% 38%) 0%,
+  hsl(120deg 98% 35%) 11%,
+  hsl(120deg 99% 32%) 22%,
+  hsl(120deg 99% 29%) 33%,
+  hsl(120deg 98% 26%) 44%,
+  hsl(120deg 98% 23%) 56%,
+  hsl(120deg 100% 20%) 67%,
+  hsl(120deg 100% 17%) 78%,
+  hsl(120deg 100% 14%) 89%,
+  hsl(120deg 100% 11%) 100%
+); }
+.yellow { background-image: linear-gradient(
+  45deg,
+  hsl(60deg 98% 69%) 0%,
+  hsl(60deg 98% 65%) 11%,
+  hsl(60deg 98% 61%) 22%,
+  hsl(60deg 98% 57%) 33%,
+  hsl(60deg 98% 53%) 44%,
+  hsl(60deg 99% 48%) 56%,
+  hsl(60deg 99% 45%) 67%,
+  hsl(60deg 99% 41%) 78%,
+  hsl(60deg 100% 36%) 89%,
+  hsl(60deg 100% 33%) 100%
+); }
+.purple { background-image: linear-gradient(
+  45deg,
+  hsl(300deg 99% 39%) 0%,
+  hsl(300deg 99% 36%) 11%,
+  hsl(300deg 99% 34%) 22%,
+  hsl(300deg 99% 31%) 33%,
+  hsl(300deg 100% 28%) 44%,
+  hsl(300deg 100% 25%) 56%,
+  hsl(300deg 100% 23%) 67%,
+  hsl(300deg 100% 20%) 78%,
+  hsl(300deg 100% 17%) 89%,
+  hsl(300deg 100% 15%) 100%
+); }
+.orange { background-image: linear-gradient(
+  45deg,
+  hsl(39deg 99% 69%) 0%,
+  hsl(39deg 99% 65%) 11%,
+  hsl(39deg 99% 61%) 22%,
+  hsl(39deg 99% 56%) 33%,
+  hsl(39deg 99% 52%) 44%,
+  hsl(39deg 99% 48%) 56%,
+  hsl(39deg 100% 44%) 67%,
+  hsl(39deg 100% 39%) 78%,
+  hsl(39deg 100% 35%) 89%,
+  hsl(39deg 100% 31%) 100%
+); }
 .cyan { background-image: linear-gradient(
   45deg,
   hsl(180deg 98% 58%) 0%,
@@ -124,9 +172,45 @@ h1 {
   hsl(180deg 100% 20%) 89%,
   hsl(180deg 100% 15%) 100%
 ); }
-.magenta { background-color: magenta; }
-.lime { background-color: lime; }
-.pink { background-color: pink; }
+.magenta { background-image: linear-gradient(
+  45deg,
+  hsl(300deg 100% 66%) 0%,
+  hsl(300deg 100% 63%) 11%,
+  hsl(300deg 100% 58%) 22%,
+  hsl(300deg 100% 55%) 33%,
+  hsl(300deg 100% 50%) 44%,
+  hsl(300deg 100% 46%) 56%,
+  hsl(300deg 100% 42%) 67%,
+  hsl(300deg 100% 38%) 78%,
+  hsl(300deg 100% 34%) 89%,
+  hsl(300deg 100% 30%) 100%
+); }
+.lime { background-image: linear-gradient(
+  45deg,
+  hsl(120deg 100% 72%) 0%,
+  hsl(120deg 100% 67%) 11%,
+  hsl(120deg 100% 62%) 22%,
+  hsl(120deg 100% 57%) 33%,
+  hsl(120deg 100% 52%) 44%,
+  hsl(120deg 100% 47%) 56%,
+  hsl(120deg 100% 42%) 67%,
+  hsl(120deg 100% 37%) 78%,
+  hsl(120deg 100% 32%) 89%,
+  hsl(120deg 100% 27%) 100%
+); }
+.pink { background-image: linear-gradient(
+  45deg,
+  hsl(349deg 100% 96%) 0%,
+  hsl(348deg 100% 93%) 11%,
+  hsl(349deg 100% 90%) 22%,
+  hsl(349deg 100% 87%) 33%,
+  hsl(349deg 100% 85%) 44%,
+  hsl(349deg 100% 82%) 56%,
+  hsl(349deg 100% 79%) 67%,
+  hsl(349deg 100% 76%) 78%,
+  hsl(350deg 100% 73%) 89%,
+  hsl(350deg 100% 70%) 100%
+); }
 
 /* Feedback pegs */
 .feedbackContainer {
