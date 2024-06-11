@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (feedback.black === 5 || currentRow === 7) {
             setTimeout(() => {
-                const message = feedback.black === 5 ? 'Congratulations! You cracked the code!' : 'Game over! Try again.';
+                const message = feedback.black === 5 ? 'Congratulations! You cracked the code! Keyword: beachy' : 'Game over! Try again.';
                 alert(message);
                 resetGame();
             }, 100);
