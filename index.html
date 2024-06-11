@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mastermind Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mastermind Game</h1>
+
+    <button id="toggleInstructions">Show Instructions</button>
+    <div id="gameInstructions" style="display: none;">
+        <h2>How to Play</h2>
+        <p>Welcome to Mastermind! Your goal is to guess the secret code of five volleyballs Here's how:</p>
+        <ul>
+            <li>The secret code consists of 5 volleyballs, each possibly one of 10 colors.</li>
+            <li>Each guess must also consist of 5 volleyballs</li>
+            <li>After each guess, you'll receive feedback in the form of black and white pegs:
+                <ul>
+                    <li>A <strong>black peg</strong> indicates a volleyball of the right color in the correct position.</li>
+                    <li>A <strong>white peg</strong> indicates a volleyball of the right color but in the wrong position.</li>
+                </ul>
+            </li>
+            <li>You have 8 chances to guess the code correctly.</li>
+            <li>To make a guess, select colors from the options at the bottom and place them in the blank spots on the current row. Then, press "Submit Guess".</li>
+            <li>If all volleyballs in a guess are correct in both color and position, you win!</li>
+            <li>If you use all 8 guesses without solving the code, the game resets.</li>
+        </ul>
+        <p>Good luck, and have fun!</p>
+    </div>
+
+    <div id="colorSelection"></div>
+
+    <!-- Game Board -->
+    <div id="gameBoard"></div>
+    </div>
+
+    <!-- Submit Button for Manual Guess Submission -->
+    <button id="submitGuessBtn" disabled>Submit Guess</button>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+
+</body>
+</html>
