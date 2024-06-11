@@ -82,12 +82,24 @@ h1 {
 
 /* Specific colors for pegs */
 .red { background-color: red; }
-.blue { background-color: blue; }
+.blue { background-image: linear-gradient(
+  45deg,
+  hsl(240deg 89% 71%) 0%,
+  hsl(240deg 91% 65%) 11%,
+  hsl(240deg 91% 59%) 22%,
+  hsl(240deg 93% 54%) 33%,
+  hsl(240deg 94% 48%) 44%,
+  hsl(240deg 95% 42%) 56%,
+  hsl(240deg 97% 37%) 67%,
+  hsl(240deg 97% 31%) 78%,
+  hsl(240deg 98% 25%) 89%,
+  hsl(240deg 100% 20%) 100%
+); }
 .green { background-color: green; }
 .yellow { background-color: yellow; }
 .purple { background-color: purple; }
 .orange { background-color: orange; }
-.cyan { background-color: linear-gradient(
+.cyan { background-image: linear-gradient(
   45deg,
   hsl(180deg 98% 58%) 0%,
   hsl(180deg 98% 53%) 11%,
